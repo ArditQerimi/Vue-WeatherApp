@@ -1,0 +1,41 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: Roboto, sans-serif !important;
+}
+
+.el-button {
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.el-input__wrapper {
+    padding: 0;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100%
+}
+
+.el-form--label-top .el-form-item__label {
+    padding: 0
+}
+
+.el-icon {
+    display: flex;
+}
+
+.el-switch__label{
+    display:flex;
+    align-items:center
+}
+
+.el-switch__label .el-switch__label--left, .el-switch__label .el-switch__label--right {
+    display:flex;
+    align-items:center
+}
+
+.el-switch__label .el-switch__label--right .is-active {
+    display:flex;
+    align-items:center
+}
